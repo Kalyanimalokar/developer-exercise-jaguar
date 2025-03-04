@@ -2,6 +2,9 @@ require 'minitest/spec'
 require 'minitest/autorun'
 require './exercise'
 
+# This file needed an update since it was written 12 years ago "Exercise.marklar("The quick brown fox")" writing this is deprecated
+# Now we write "_(Exercise.marklar("The quick brown fox"))"
+
 describe Exercise do
   describe "#marklar" do
     it "should return a marklar'd string" do
